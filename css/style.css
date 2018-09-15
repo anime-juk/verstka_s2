@@ -1,0 +1,69 @@
+.g_line{
+    height: 1px;
+}
+.brand-logo{
+    margin-left: 20px;
+}
+.head-nav-el{
+    font-size: 20px;
+}
+
+.search{
+    margin-bottom: 2%
+}
+
+input {
+    height: 54px;
+    padding-left: 15px;
+    border: 3px solid #e8eaf6;
+  }
+  input:focus {
+    border-color: #303f9f;
+  }
+
+.slider .indicators .indicator-item.active {
+    background-color: #303f9f;
+  }
+
+  nav .brand-logo {
+      left:10%;
+  }
+
+.indicator-item {
+    color: #303f9f;
+    background-color:#303f9f;
+}
+
+body {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+  }
+
+main {
+    flex: 1 0 auto;
+  }
+@media (max-width:600px){
+  .social{
+    height: 30px;
+  }
+}
+@media (min-width:601px){
+    .social{
+      height: 35px;
+    }
+  }
+.copyright{
+    position: relative;
+    top:7px;
+}
+.head{
+    top: 0px;
+    width: 100%;
+    position: fixed;
+    z-index: 10;
+}
+.hole{
+    height: 64px;
+    width: 100%;
+}
